@@ -1,7 +1,7 @@
 const app = document.getElementById('app');
 
 /** Номер варианта (как в папке 7257-N) */
-const VARIANT = '1';
+const VARIANT = '9';
 
 function sendAnalyticsEvent(gaEvent, ymEvent) {
   if (typeof window.gtag === 'function') {
